@@ -129,9 +129,9 @@ dmypy.json
 .pyre/
 
 # dataset
-.bin
-.json
-.jsonl
-.gz
-.pickle
-.npy
+*.bin
+*.json
+*.jsonl
+*.gz
+*.pickle
+*.npy
