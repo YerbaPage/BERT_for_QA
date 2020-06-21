@@ -1,0 +1,16 @@
+973480
+batch_size in reduce1: 192
+We have added 9 tokens
+33334
+--- 2793.751568555832 seconds ---
+batch_size in reduce2 96
+We have added 9 tokens
+16729
+--- 223.33852410316467 seconds ---
+before albert predicting
+batch_size in albert predict : 32
+We have added 10 tokens
+before saving
+before final saving
+after final saving
+--- 1177.5444965362549 seconds ---

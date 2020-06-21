@@ -1,0 +1,43 @@
+152086 155225
+152086 155225
+152086 155225
+152086 155225
+We have added 9 tokens
+bert-large-uncased_4 train_epoch0 build model is finished!
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+We have added 9 tokens
+We have added 9 tokens
+We have added 9 tokens
+bert-large-uncased_4 train_epoch0 build model is finished!
+bert-large-uncased_4 train_epoch0 build model is finished!
+bert-large-uncased_4 train_epoch0 build model is finished!
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size:batch size: 1
+batch size: 1batch size:
+ 1
+batch size: 1
+ 1
+batch size: 1
+batch size: 1
+batch size: 1
+batch size:batch size: 1
+ 1
+batch size: 1
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************

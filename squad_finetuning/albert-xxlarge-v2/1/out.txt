@@ -1,0 +1,27 @@
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+{}
+{}
+{}
+{'exact': 84.86481933799377, 'f1': 88.00146333980271, 'total': 11873, 'HasAns_exact': 81.79824561403508, 'HasAns_f1': 88.08052871684866, 'HasAns_total': 5928, 'NoAns_exact': 87.92262405382675, 'NoAns_f1': 87.92262405382675, 'NoAns_total': 5945, 'best_exact': 84.86481933799377, 'best_exact_thresh': 0.0, 'best_f1': 88.00146333980263, 'best_f1_thresh': 0.0}
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
