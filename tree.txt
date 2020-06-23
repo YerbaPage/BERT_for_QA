@@ -1,0 +1,2811 @@
+ code
+	 albert-xxlarge-v2_4
+		 model
+			 |-- pytorch_model.bin
+			 |-- config.json
+			 |-- spiece.model
+		 weights
+			 epoch1
+				 |-- pytorch_model.bin
+			 epoch2
+				 |-- pytorch_model.bin
+			 epoch0
+				 |-- pytorch_model.bin
+			 epoch3
+				 |-- pytorch_model.bin
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 |-- train_epoch3.txt
+		 |-- train_epoch0.txt
+		 |-- train_epoch3.py
+		 |-- train_epoch2.txt
+		 |-- run_epoch3.sh
+		 |-- train_epoch1.txt
+		 |-- train_epoch2.py
+		 |-- run.sh
+		 |-- train_epoch1.py
+		 |-- train_epoch0.py
+	 validation_test
+		 __pycache__
+			 |-- eval_utils.cpython-37.pyc
+		 albert_epoch2
+			 |-- predictions_test_albert_epoch2.json
+			 |-- temp_dict_test.npy
+			 |-- class_prob_test.npy
+			 |-- id_list_test.npy
+			 |-- id_candidate_list_sorted_test.npy
+			 |-- end_prob_test.npy
+			 |-- final_dict_test.npy
+			 |-- data_dict_test.npy
+			 |-- start_prob_test.npy
+			 |-- id_candidate_len_dict_test.npy
+			 |-- valid_xlarge_on_test.txt
+		 albert_epoch3
+			 |-- temp_dict_test.npy
+			 |-- class_prob_test.npy
+			 |-- predictions_test.json
+			 |-- id_list_test.npy
+			 |-- id_candidate_list_sorted_test.npy
+			 |-- end_prob_test.npy
+			 |-- final_dict_test.npy
+			 |-- data_dict_test.npy
+			 |-- start_prob_test.npy
+			 |-- id_candidate_len_dict_test.npy
+			 |-- valid_xlarge_on_test.txt
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 |-- valid_xlarge_on_test.sh
+		 |-- eval_utils.py
+		 |-- nq_eval.py
+		 |-- valid_xlarge_on_test.py
+		 |-- run_eval.sh
+	 1_1
+		 weights
+			 epoch1
+				 |-- pytorch_model.bin
+			 epoch0
+				 |-- pytorch_model.bin
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 |-- run_hnm.sh
+		 |-- train_epoch0.txt
+		 |-- hnm_set4.py
+		 |-- hnm_set1.py
+		 |-- run_hnm3.sh
+		 |-- distribution_dict4.pickle
+		 |-- hnm_set3.py
+		 |-- distribution_dict2.pickle
+		 |-- distribution_dict3.pickle
+		 |-- eval_epoch0.txt
+		 |-- train_epoch1.txt
+		 |-- hnm_set2.py
+		 |-- distribution_dict1.pickle
+		 |-- run.sh
+		 |-- train_epoch1.py
+		 |-- train_epoch0.py
+	 validation
+		 valid_base1_codes
+			 |-- valid_base1.txt
+			 |-- valid_base1.py
+			 |-- run_base1.sh
+		 6-13_xlarge_epoch3
+			 |-- id_candidate_list_sorted.npy
+			 |-- final_dict.npy
+			 |-- id_list.npy
+			 |-- end_prob.npy
+			 |-- predictions.json
+			 |-- valid_xlarge.txt
+			 |-- temp_dict.npy
+			 |-- data_dict.npy
+			 |-- class_prob.npy
+			 |-- predictions.txt
+			 |-- id_candidate_len_dict.npy
+			 |-- start_prob.npy
+		 6-10_bert_base
+			 |-- end_prob_6-11.npy
+			 |-- id_candidate_list_sorted.npy
+			 |-- id_list.npy
+			 |-- class_prob_6-11.npy
+			 |-- start_prob_6-11.npy
+			 |-- final_dict_6-11.npy
+			 |-- data_dict.npy
+			 |-- temp_dict_6-11.npy
+			 |-- valid_base.txt
+			 |-- id_candidate_len_dict.npy
+		 __pycache__
+			 |-- valid_xlarge.py
+			 |-- eval_utils.cpython-37.pyc
+		 ensemble_0.7&0.3
+			 |-- predictions.json
+			 |-- valid_xlarge.txt
+			 |-- valid_xlarge.py
+			 |-- predictions.txt
+		 6-12_albert_xlarge
+			 |-- final_dict.npy
+			 |-- end_prob.npy
+			 |-- predictions.json
+			 |-- valid_xlarge.txt
+			 |-- temp_dict.npy
+			 |-- class_prob.npy
+			 |-- predictions.txt
+			 |-- start_prob.npy
+		 ensemble_0.6&0.4
+		 6-12_bert_base
+			 |-- end_prob_6-11.npy
+			 |-- class_prob_6-11.npy
+			 |-- start_prob_6-11.npy
+			 |-- predictions.json
+			 |-- final_dict_6-11.npy
+			 |-- temp_dict_6-11.npy
+			 |-- predictions.txt
+			 |-- valid_base.txt
+		 base&ori_codes
+			 |-- valid.py
+			 |-- valid_base.py
+			 |-- run_base.sh
+			 |-- run.sh
+		 6-14_albert_xlarge2
+			 |-- predictions.json
+			 |-- valid_xlarge.txt
+			 |-- predictions.txt
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 |-- eval_utils.py
+		 |-- nq_eval.py
+		 |-- predictions.json
+		 |-- valid_xlarge.txt
+		 |-- run_eval.sh
+		 |-- run_xlarge.sh
+		 |-- valid_xlarge.py
+		 |-- predictions.txt
+	 albert-xxlarge-v2_2
+		 model
+			 |-- pytorch_model.bin
+			 |-- pytorch_model_ori.bin
+			 |-- config.json
+			 |-- spiece.model
+		 model-fine
+			 |-- pytorch_model.bin
+		 weights
+			 epoch1
+				 |-- pytorch_model.bin
+			 epoch2
+				 |-- pytorch_model.bin
+			 epoch0
+				 |-- pytorch_model.bin
+		 size3_codes
+			 |-- train_epoch2.py
+			 |-- train_epoch1.py
+			 |-- train_epoch0.py
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 origin_6-9
+			 |-- train_epoch0.txt
+			 |-- train_epoch2.txt
+			 |-- train_epoch1.txt
+			 |-- train_epoch2.py
+			 |-- run.sh
+			 |-- train_epoch1.py
+			 |-- train_epoch0.py
+		 model_old
+			 |-- pytorch_model.bin
+			 |-- config.json
+			 |-- spiece.model
+		 |-- train_epoch0.txt
+		 |-- nq_eval.py
+		 |-- train_epoch2.txt
+		 |-- train_epoch1.txt
+		 |-- train_epoch2.py
+		 |-- run.sh
+		 |-- train_epoch1.py
+		 |-- train_epoch0.py
+	 bert-base-uncased_1
+		 model
+			 |-- pytorch_model.bin
+			 |-- vocab.txt
+			 |-- config.json
+		 .ipynb_checkpoints
+			 |-- .ipynb-checkpoint
+			 |-- loss_display-checkpoint.ipynb
+		 weights
+			 epoch0
+				 |-- pytorch_model.bin
+		 Ori_opt
+			 weights
+				 epoch1
+					 |-- pytorch_model.bin
+				 epoch2
+					 |-- pytorch_model.bin
+				 epoch0
+					 |-- pytorch_model.bin
+			 |-- train_epoch0.txt
+			 |-- train_epoch2.txt
+			 |-- train_epoch1.txt
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- train_epoch0.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 |-- loss_display.ipynb
+		 |-- .ipynb
+		 |-- accuracies2.npy
+		 |-- losses2.npy
+		 |-- losses1.npy
+		 |-- run_epoch0.sh
+		 |-- accuracy.png
+		 |-- losses3.npy
+		 |-- accuracies3.npy
+		 |-- train_epoch2.py
+		 |-- run.sh
+		 |-- train_epoch1.py
+		 |-- train_epoch0.py
+		 |-- total loss.png
+		 |-- accuracies1.npy
+		 |-- train_epoch0_with_more_comments.py
+	 bert-large-uncased_4
+		 model
+			 |-- pytorch_model.bin
+			 |-- vocab.txt
+			 |-- bert-large-uncased-whole-word-masking-finetuned-squad-config.json
+			 |-- config.json
+		 ooooold
+			 |-- train_epoch0_ngnew.py
+			 |-- run_ng11.sh
+			 |-- train_epoch0_device.py
+			 |-- train_epoch0_ng3.py
+			 |-- run_nograd_4gpu.sh
+			 |-- rundv1.sh
+			 |-- run_nograd.sh
+			 |-- train_epoch0_ng1.py
+			 |-- run_ng1.sh
+			 |-- run_ng3.sh
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- train_epoch0-batch.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 batch_backup
+			 |-- train_epoch3.py
+			 |-- train_epoch2.py
+			 |-- train_epoch1.py
+			 |-- train_epoch0.py
+		 |-- run_ng12.sh
+		 |-- train_epoch0-batch.txt
+		 |-- bert-large-uncased-whole-word-masking-finetuned-squad-config.json
+		 |-- train_epoch0_ng12.py
+		 |-- train_epoch0_ng12.txt
+		 |-- train_epoch3.py
+		 |-- train_epoch2.py
+		 |-- run.sh
+		 |-- train_epoch1.py
+		 |-- train_epoch0.py
+		 |-- train_epoch0-batch.py
+		 |-- run_batch.sh
+	 albert-xxlarge-v2_3
+		 model
+			 |-- pytorch_model.bin
+			 |-- config.json
+			 |-- spiece.model
+		 old
+			 |-- train_epoch2.py
+			 |-- run.sh
+			 |-- train_epoch1.py
+			 |-- train_epoch0.py
+		 weights
+			 epoch1
+				 |-- pytorch_model.bin
+			 epoch2
+				 |-- pytorch_model.bin
+			 epoch0
+				 |-- pytorch_model.bin
+		 size3_codes
+			 |-- train_epoch2.py
+			 |-- train_epoch1.py
+			 |-- train_epoch0.py
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 model_old
+			 |-- pytorch_model.bin
+			 |-- config.json
+			 |-- spiece.model
+		 |-- train_epoch0.txt
+		 |-- train_epoch0_batch.py
+		 |-- train_epoch2.txt
+		 |-- train_epoch0_batch.txt
+		 |-- train_epoch1.txt
+		 |-- train_epoch2.py
+		 |-- run.sh
+		 |-- run_epoch2.sh
+		 |-- train_epoch1.py
+		 |-- train_epoch0.py
+		 |-- train_epoch0_batch.sh
+	 bert-large-uncased_5
+		 model
+			 |-- pytorch_model.bin
+			 |-- vocab.txt
+			 |-- config.json
+		 transformers
+			 __pycache__
+				 |-- configuration_xlm.cpython-37.pyc
+				 |-- modelcard.cpython-37.pyc
+				 |-- configuration_xlnet.cpython-37.pyc
+				 |-- modeling_tf_albert.cpython-37.pyc
+				 |-- configuration_utils.cpython-37.pyc
+				 |-- modeling_tf_xlnet.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+				 |-- optimization.cpython-37.pyc
+				 |-- tokenization_albert.cpython-37.pyc
+				 |-- configuration_t5.cpython-37.pyc
+				 |-- modeling_tf_transfo_xl.cpython-37.pyc
+				 |-- tokenization_openai.cpython-37.pyc
+				 |-- modeling_tf_openai.cpython-37.pyc
+				 |-- configuration_albert.cpython-37.pyc
+				 |-- modeling_tf_xlm.cpython-37.pyc
+				 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+				 |-- tokenization_xlm.cpython-37.pyc
+				 |-- file_utils.cpython-37.pyc
+				 |-- modeling_tf_distilbert.cpython-37.pyc
+				 |-- configuration_roberta.cpython-37.pyc
+				 |-- tokenization_xlm_roberta.cpython-37.pyc
+				 |-- modeling_transfo_xl.cpython-37.pyc
+				 |-- modeling_tf_gpt2.cpython-37.pyc
+				 |-- tokenization_t5.cpython-37.pyc
+				 |-- configuration_bert.cpython-37.pyc
+				 |-- configuration_camembert.cpython-37.pyc
+				 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+				 |-- modeling_xlm.cpython-37.pyc
+				 |-- configuration_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_roberta.cpython-37.pyc
+				 |-- modeling_bert.cpython-37.pyc
+				 |-- configuration_auto.cpython-37.pyc
+				 |-- modeling_encoder_decoder.cpython-37.pyc
+				 |-- modeling_albert.cpython-37.pyc
+				 |-- modeling_tf_auto.cpython-37.pyc
+				 |-- modeling_tf_bert.cpython-37.pyc
+				 |-- pipelines.cpython-37.pyc
+				 |-- modeling_openai.cpython-37.pyc
+				 |-- modeling_tf_utils.cpython-37.pyc
+				 |-- modeling_ctrl.cpython-37.pyc
+				 |-- configuration_ctrl.cpython-37.pyc
+				 |-- configuration_mmbt.cpython-37.pyc
+				 |-- modeling_xlnet.cpython-37.pyc
+				 |-- modeling_mmbt.cpython-37.pyc
+				 |-- configuration_gpt2.cpython-37.pyc
+				 |-- modeling_tf_roberta.cpython-37.pyc
+				 |-- modeling_utils.cpython-37.pyc
+				 |-- modeling_roberta.cpython-37.pyc
+				 |-- tokenization_camembert.cpython-37.pyc
+				 |-- configuration_openai.cpython-37.pyc
+				 |-- tokenization_transfo_xl.cpython-37.pyc
+				 |-- modeling_t5.cpython-37.pyc
+				 |-- configuration_transfo_xl.cpython-37.pyc
+				 |-- modeling_distilbert.cpython-37.pyc
+				 |-- modeling_tf_t5.cpython-37.pyc
+				 |-- tokenization_utils.cpython-37.pyc
+				 |-- tokenization_auto.cpython-37.pyc
+				 |-- tokenization_ctrl.cpython-37.pyc
+				 |-- modeling_gpt2.cpython-37.pyc
+				 |-- __init__.cpython-37.pyc
+				 |-- modeling_auto.cpython-37.pyc
+				 |-- tokenization_bert_japanese.cpython-37.pyc
+				 |-- modeling_xlm_roberta.cpython-37.pyc
+				 |-- tokenization_xlnet.cpython-37.pyc
+				 |-- optimization_tf.cpython-37.pyc
+				 |-- modeling_tf_ctrl.cpython-37.pyc
+				 |-- tokenization_bert.cpython-37.pyc
+				 |-- configuration_distilbert.cpython-37.pyc
+				 |-- tokenization_gpt2.cpython-37.pyc
+				 |-- modeling_camembert.cpython-37.pyc
+				 |-- tokenization_distilbert.cpython-37.pyc
+			 commands
+				 |-- download.py
+				 |-- train.py
+				 |-- __init__.py
+				 |-- convert.py
+				 |-- user.py
+				 |-- run.py
+				 |-- serving.py
+			 data
+				 __pycache__
+					 |-- __init__.cpython-37.pyc
+				 metrics
+					 __pycache__
+						 |-- squad_metrics.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+					 |-- __init__.py
+					 |-- squad_metrics.py
+				 processors
+					 __pycache__
+						 |-- utils.cpython-37.pyc
+						 |-- squad.cpython-37.pyc
+						 |-- xnli.cpython-37.pyc
+						 |-- __init__.cpython-37.pyc
+						 |-- glue.cpython-37.pyc
+					 |-- xnli.py
+					 |-- __init__.py
+					 |-- utils.py
+					 |-- glue.py
+					 |-- squad.py
+				 |-- __init__.py
+			 |-- configuration_albert.py
+			 |-- configuration_ctrl.py
+			 |-- configuration_t5.py
+			 |-- modeling_transfo_xl_utilities.py
+			 |-- configuration_gpt2.py
+			 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_openai.py
+			 |-- configuration_xlm.py
+			 |-- tokenization_distilbert.py
+			 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_bert.py
+			 |-- modeling_tf_t5.py
+			 |-- modeling_t5.py
+			 |-- tokenization_utils.py
+			 |-- modeling_xlm_roberta.py
+			 |-- tokenization_bert_japanese.py
+			 |-- configuration_roberta.py
+			 |-- modeling_transfo_xl.py
+			 |-- modeling_ctrl.py
+			 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+			 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+			 |-- modeling_auto.py
+			 |-- optimization.py
+			 |-- modeling_tf_utils.py
+			 |-- configuration_openai.py
+			 |-- modeling_mmbt.py
+			 |-- tokenization_xlm_roberta.py
+			 |-- modeling_openai.py
+			 |-- modeling_xlnet.py
+			 |-- modeling_albert.py
+			 |-- configuration_distilbert.py
+			 |-- configuration_transfo_xl.py
+			 |-- convert_pytorch_checkpoint_to_tf2.py
+			 |-- configuration_mmbt.py
+			 |-- modeling_tf_ctrl.py
+			 |-- __init__.py
+			 |-- configuration_xlnet.py
+			 |-- modeling_encoder_decoder.py
+			 |-- configuration_utils.py
+			 |-- modeling_tf_auto.py
+			 |-- modeling_tf_roberta.py
+			 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+			 |-- configuration_bert.py
+			 |-- tokenization_camembert.py
+			 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_transfo_xl.py
+			 |-- tokenization_bert.py
+			 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+			 |-- modeling_tf_xlm.py
+			 |-- modeling_camembert.py
+			 |-- modeling_distilbert.py
+			 |-- modelcard.py
+			 |-- modeling_gpt2.py
+			 |-- modeling_tf_albert.py
+			 |-- modeling_xlm.py
+			 |-- tokenization_albert.py
+			 |-- tokenization_openai.py
+			 |-- tokenization_xlnet.py
+			 |-- file_utils.py
+			 |-- modeling_bert.py
+			 |-- hf_api.py
+			 |-- tokenization_xlm.py
+			 |-- modeling_roberta.py
+			 |-- modeling_utils.py
+			 |-- configuration_auto.py
+			 |-- tokenization_ctrl.py
+			 |-- modeling_tf_transfo_xl_utilities.py
+			 |-- configuration_xlm_roberta.py
+			 |-- configuration_camembert.py
+			 |-- tokenization_roberta.py
+			 |-- tokenization_transfo_xl.py
+			 |-- tokenization_t5.py
+			 |-- modeling_tf_pytorch_utils.py
+			 |-- tokenization_auto.py
+			 |-- modeling_tf_gpt2.py
+			 |-- tokenization_gpt2.py
+			 |-- pipelines.py
+			 |-- optimization_tf.py
+			 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+			 |-- modeling_tf_distilbert.py
+			 |-- modeling_tf_xlnet.py
+		 model_large
+			 |-- pytorch_model.bin
+			 |-- vocab.txt
+			 |-- bert-large-uncased-whole-word-masking-finetuned-squad-config.json
+			 |-- config.json
+		 |-- train_epoch3.txt
+		 |-- train_epoch0.txt
+		 |-- bert-large-uncased-whole-word-masking-finetuned-squad-config.json
+		 |-- train_epoch3.py
+		 |-- train_epoch2.txt
+		 |-- train_epoch1.txt
+		 |-- train_epoch2.py
+		 |-- run.sh
+		 |-- train_epoch1.py
+		 |-- train_epoch0.py
+ .ipynb_checkpoints
+	 |-- tree-checkpoint.ipynb
+ squad_finetuning
+	 albert-xxlarge-v2
+		 1
+			 output_xxlarge_size1
+				 |-- pytorch_model.bin
+				 |-- nbest_predictions_.json
+				 |-- special_tokens_map.json
+				 |-- added_tokens.json
+				 |-- null_odds_.json
+				 |-- training_args.bin
+				 |-- config.json
+				 |-- tokenizer_config.json
+				 |-- spiece.model
+				 |-- predictions_.json
+			 output_xxlarge_size2
+				 |-- pytorch_model.bin
+				 |-- nbest_predictions_.json
+				 |-- special_tokens_map.json
+				 |-- added_tokens.json
+				 |-- null_odds_.json
+				 |-- training_args.bin
+				 |-- config.json
+				 |-- tokenizer_config.json
+				 |-- spiece.model
+				 |-- predictions_.json
+			 output_albert_xlarge_size3_learning_rate1.5
+				 |-- pytorch_model.bin
+				 |-- nbest_predictions_.json
+				 |-- special_tokens_map.json
+				 |-- added_tokens.json
+				 |-- out.txt
+				 |-- null_odds_.json
+				 |-- training_args.bin
+				 |-- config.json
+				 |-- tokenizer_config.json
+				 |-- spiece.model
+				 |-- predictions_.json
+			 output
+				 |-- pytorch_model.bin
+				 |-- nbest_predictions_.json
+				 |-- special_tokens_map.json
+				 |-- added_tokens.json
+				 |-- null_odds_.json
+				 |-- training_args.bin
+				 |-- config.json
+				 |-- tokenizer_config.json
+				 |-- spiece.model
+				 |-- predictions_.json
+			 output_??
+				 |-- pytorch_model.bin
+				 |-- nbest_predictions_.json
+				 |-- special_tokens_map.json
+				 |-- added_tokens.json
+				 |-- null_odds_.json
+				 |-- training_args.bin
+				 |-- config.json
+				 |-- tokenizer_config.json
+				 |-- spiece.model
+				 |-- predictions_.json
+			 output_albert_xlarge_size1
+				 |-- pytorch_model.bin
+				 |-- nbest_predictions_.json
+				 |-- special_tokens_map.json
+				 |-- added_tokens.json
+				 |-- out.txt
+				 |-- null_odds_.json
+				 |-- training_args.bin
+				 |-- config.json
+				 |-- tokenizer_config.json
+				 |-- spiece.model
+				 |-- predictions_.json
+			 runs
+			 transformers
+				 __pycache__
+					 |-- configuration_xlm.cpython-37.pyc
+					 |-- modelcard.cpython-37.pyc
+					 |-- configuration_xlnet.cpython-37.pyc
+					 |-- modeling_tf_albert.cpython-37.pyc
+					 |-- configuration_utils.cpython-37.pyc
+					 |-- modeling_tf_xlnet.cpython-37.pyc
+					 |-- modeling_tf_transfo_xl_utilities.cpython-37.pyc
+					 |-- optimization.cpython-37.pyc
+					 |-- tokenization_albert.cpython-37.pyc
+					 |-- configuration_t5.cpython-37.pyc
+					 |-- modeling_tf_transfo_xl.cpython-37.pyc
+					 |-- tokenization_openai.cpython-37.pyc
+					 |-- modeling_tf_openai.cpython-37.pyc
+					 |-- configuration_albert.cpython-37.pyc
+					 |-- modeling_tf_xlm.cpython-37.pyc
+					 |-- modeling_transfo_xl_utilities.cpython-37.pyc
+					 |-- tokenization_xlm.cpython-37.pyc
+					 |-- file_utils.cpython-37.pyc
+					 |-- modeling_tf_distilbert.cpython-37.pyc
+					 |-- configuration_roberta.cpython-37.pyc
+					 |-- tokenization_xlm_roberta.cpython-37.pyc
+					 |-- modeling_transfo_xl.cpython-37.pyc
+					 |-- modeling_tf_gpt2.cpython-37.pyc
+					 |-- tokenization_t5.cpython-37.pyc
+					 |-- configuration_bert.cpython-37.pyc
+					 |-- configuration_camembert.cpython-37.pyc
+					 |-- modeling_tf_pytorch_utils.cpython-37.pyc
+					 |-- modeling_xlm.cpython-37.pyc
+					 |-- configuration_xlm_roberta.cpython-37.pyc
+					 |-- tokenization_roberta.cpython-37.pyc
+					 |-- modeling_bert.cpython-37.pyc
+					 |-- configuration_auto.cpython-37.pyc
+					 |-- modeling_encoder_decoder.cpython-37.pyc
+					 |-- modeling_albert.cpython-37.pyc
+					 |-- modeling_tf_auto.cpython-37.pyc
+					 |-- modeling_tf_bert.cpython-37.pyc
+					 |-- pipelines.cpython-37.pyc
+					 |-- modeling_openai.cpython-37.pyc
+					 |-- modeling_tf_utils.cpython-37.pyc
+					 |-- modeling_ctrl.cpython-37.pyc
+					 |-- configuration_ctrl.cpython-37.pyc
+					 |-- configuration_mmbt.cpython-37.pyc
+					 |-- modeling_xlnet.cpython-37.pyc
+					 |-- modeling_mmbt.cpython-37.pyc
+					 |-- configuration_gpt2.cpython-37.pyc
+					 |-- modeling_tf_roberta.cpython-37.pyc
+					 |-- modeling_utils.cpython-37.pyc
+					 |-- modeling_roberta.cpython-37.pyc
+					 |-- tokenization_camembert.cpython-37.pyc
+					 |-- configuration_openai.cpython-37.pyc
+					 |-- tokenization_transfo_xl.cpython-37.pyc
+					 |-- modeling_t5.cpython-37.pyc
+					 |-- configuration_transfo_xl.cpython-37.pyc
+					 |-- modeling_distilbert.cpython-37.pyc
+					 |-- modeling_tf_t5.cpython-37.pyc
+					 |-- tokenization_utils.cpython-37.pyc
+					 |-- tokenization_auto.cpython-37.pyc
+					 |-- tokenization_ctrl.cpython-37.pyc
+					 |-- modeling_gpt2.cpython-37.pyc
+					 |-- __init__.cpython-37.pyc
+					 |-- modeling_auto.cpython-37.pyc
+					 |-- tokenization_bert_japanese.cpython-37.pyc
+					 |-- modeling_xlm_roberta.cpython-37.pyc
+					 |-- tokenization_xlnet.cpython-37.pyc
+					 |-- optimization_tf.cpython-37.pyc
+					 |-- modeling_tf_ctrl.cpython-37.pyc
+					 |-- tokenization_bert.cpython-37.pyc
+					 |-- configuration_distilbert.cpython-37.pyc
+					 |-- tokenization_gpt2.cpython-37.pyc
+					 |-- modeling_camembert.cpython-37.pyc
+					 |-- tokenization_distilbert.cpython-37.pyc
+				 commands
+					 |-- download.py
+					 |-- train.py
+					 |-- __init__.py
+					 |-- convert.py
+					 |-- user.py
+					 |-- run.py
+					 |-- serving.py
+				 data
+					 __pycache__
+						 |-- __init__.cpython-37.pyc
+					 metrics
+						 __pycache__
+							 |-- squad_metrics.cpython-37.pyc
+							 |-- __init__.cpython-37.pyc
+						 |-- __init__.py
+						 |-- squad_metrics.py
+					 processors
+						 __pycache__
+							 |-- utils.cpython-37.pyc
+							 |-- squad.cpython-37.pyc
+							 |-- xnli.cpython-37.pyc
+							 |-- __init__.cpython-37.pyc
+							 |-- glue.cpython-37.pyc
+						 |-- xnli.py
+						 |-- __init__.py
+						 |-- utils.py
+						 |-- glue.py
+						 |-- squad.py
+					 |-- __init__.py
+				 |-- configuration_albert.py
+				 |-- configuration_ctrl.py
+				 |-- configuration_t5.py
+				 |-- modeling_transfo_xl_utilities.py
+				 |-- configuration_gpt2.py
+				 |-- convert_gpt2_original_tf_checkpoint_to_pytorch.py
+				 |-- modeling_tf_openai.py
+				 |-- configuration_xlm.py
+				 |-- tokenization_distilbert.py
+				 |-- convert_xlnet_original_tf_checkpoint_to_pytorch.py
+				 |-- convert_albert_original_tf_checkpoint_to_pytorch.py
+				 |-- convert_roberta_original_pytorch_checkpoint_to_pytorch.py
+				 |-- modeling_tf_bert.py
+				 |-- modeling_tf_t5.py
+				 |-- modeling_t5.py
+				 |-- tokenization_utils.py
+				 |-- modeling_xlm_roberta.py
+				 |-- tokenization_bert_japanese.py
+				 |-- configuration_roberta.py
+				 |-- modeling_transfo_xl.py
+				 |-- modeling_ctrl.py
+				 |-- convert_bert_original_tf_checkpoint_to_pytorch.py
+				 |-- convert_bert_pytorch_checkpoint_to_original_tf.py
+				 |-- modeling_auto.py
+				 |-- optimization.py
+				 |-- modeling_tf_utils.py
+				 |-- configuration_openai.py
+				 |-- modeling_mmbt.py
+				 |-- tokenization_xlm_roberta.py
+				 |-- modeling_openai.py
+				 |-- modeling_xlnet.py
+				 |-- modeling_albert.py
+				 |-- configuration_distilbert.py
+				 |-- configuration_transfo_xl.py
+				 |-- convert_pytorch_checkpoint_to_tf2.py
+				 |-- configuration_mmbt.py
+				 |-- modeling_tf_ctrl.py
+				 |-- __init__.py
+				 |-- configuration_xlnet.py
+				 |-- modeling_encoder_decoder.py
+				 |-- configuration_utils.py
+				 |-- modeling_tf_auto.py
+				 |-- modeling_tf_roberta.py
+				 |-- convert_openai_original_tf_checkpoint_to_pytorch.py
+				 |-- configuration_bert.py
+				 |-- tokenization_camembert.py
+				 |-- convert_t5_original_tf_checkpoint_to_pytorch.py
+				 |-- modeling_tf_transfo_xl.py
+				 |-- tokenization_bert.py
+				 |-- convert_transfo_xl_original_tf_checkpoint_to_pytorch.py
+				 |-- modeling_tf_xlm.py
+				 |-- modeling_camembert.py
+				 |-- modeling_distilbert.py
+				 |-- modelcard.py
+				 |-- modeling_gpt2.py
+				 |-- modeling_tf_albert.py
+				 |-- modeling_xlm.py
+				 |-- tokenization_albert.py
+				 |-- tokenization_openai.py
+				 |-- tokenization_xlnet.py
+				 |-- file_utils.py
+				 |-- modeling_bert.py
+				 |-- hf_api.py
+				 |-- tokenization_xlm.py
+				 |-- modeling_roberta.py
+				 |-- modeling_utils.py
+				 |-- configuration_auto.py
+				 |-- tokenization_ctrl.py
+				 |-- modeling_tf_transfo_xl_utilities.py
+				 |-- configuration_xlm_roberta.py
+				 |-- configuration_camembert.py
+				 |-- tokenization_roberta.py
+				 |-- tokenization_transfo_xl.py
+				 |-- tokenization_t5.py
+				 |-- modeling_tf_pytorch_utils.py
+				 |-- tokenization_auto.py
+				 |-- modeling_tf_gpt2.py
+				 |-- tokenization_gpt2.py
+				 |-- pipelines.py
+				 |-- optimization_tf.py
+				 |-- convert_xlm_original_pytorch_checkpoint_to_pytorch.py
+				 |-- modeling_tf_distilbert.py
+				 |-- modeling_tf_xlnet.py
+			 output_albert_xlarge_size3
+				 |-- pytorch_model.bin
+				 |-- nbest_predictions_.json
+				 |-- special_tokens_map.json
+				 |-- added_tokens.json
+				 |-- out.txt
+				 |-- null_odds_.json
+				 |-- training_args.bin
+				 |-- config.json
+				 |-- tokenizer_config.json
+				 |-- spiece.model
+				 |-- predictions_.json
+			 |-- runO3.sh
+			 |-- outO3.txt
+			 |-- out.txt
+			 |-- run.sh
+			 |-- run_squad.py
+			 |-- run_squadO3.py
+	 squad2
+		 |-- dev-v2.0.json
+		 |-- placeholder
+		 |-- train-v2.0.json
+ .git
+	 logs
+		 refs
+			 heads
+				 |-- master
+			 remotes
+				 origin
+					 |-- HEAD
+					 |-- master
+		 |-- HEAD
+	 objects
+		 pack
+			 |-- pack-3a646326142cbc4b74b34cb0ca5d35d7a7e9f33b.idx
+			 |-- pack-3a646326142cbc4b74b34cb0ca5d35d7a7e9f33b.pack
+		 27
+			 |-- 2687076888210034ccc2d6423905f03dd8ea27
+		 e3
+			 |-- 05c8b15b8ef6b9ac34a188bcc3cc2554d5b401
+			 |-- 8c176c2fd4ac00a5f6c5acf7666c200df7f4cf
+		 ad
+			 |-- 3aed4be2477a1e80d643f7bde02c0a3a602e9d
+			 |-- 52bf3702aeab8a39b47849a5221b4f3a316c65
+			 |-- 861ddc98ed5a8efba0de5a2560eb8d37ff0adb
+		 af
+			 |-- 9271d0796c23afd179c7fb85af7e4655f89fbc
+			 |-- a035c9401d57221c02a4dd87069488c9435184
+			 |-- 1ced7e9807f1a4fb1c99a4788ad9b532b1ee61
+			 |-- 928cf39523d9d591f9b516bf73e76072f8c9d1
+		 b6
+			 |-- 5d181157cbb066580e4037fd8afcc171247ffe
+			 |-- 97aff0a78f4bc07d61f2fc0265e1879d1c8b94
+		 9c
+			 |-- f772a973478f991be47e44660ed3d3931a362f
+		 be
+			 |-- 517dbcb27b2f546ec71b15d870830d41b32954
+		 b0
+			 |-- 72468e7f1791ed85979b17ec2621cdf280e943
+			 |-- 48abf9463d5b35103910213203232696ca4146
+			 |-- 9a7353e1d42e4bb8cfba0e7a13181f214755d2
+			 |-- b83b2e4cc82fa258742c10191f1f5bd0de301e
+		 30
+			 |-- d79ffaa62408ac0e8193fd4e7c48e331c3386b
+			 |-- 2ff5aa7322d53a71d3e05367eeac71855e7a34
+		 23
+			 |-- ffb639f70cc05f50e64703be018656a6363b8f
+		 73
+			 |-- 00d791a948a5e580109cc8c034e2370cae4e31
+		 2f
+			 |-- 577d6b69ee06955b90ad37b1e258a520706e8b
+		 90
+			 |-- 36c9b8425b5c63d07b3912dc429229f085819a
+		 c6
+			 |-- 63b7b8ec8ed7aefb7045e26f4c25bad47174f8
+			 |-- d6226bc7f23dc5ccdcbebd4bb2cc039a57f143
+		 a6
+			 |-- 2ecf44a02a52d57792791bae9d795e66a46375
+		 4b
+			 |-- bbe1618b08da4f8732a744b00e4e463e494ce7
+		 c9
+			 |-- 1b8acfa56ccfc80e1cdd854ddcaf9b6c44ab2a
+			 |-- 30e324fcca6bc2a1d0f7638d99a25c464bedb2
+			 |-- 9ec08ffc2c64093205f8d1c45e366d76078abf
+		 a3
+			 |-- 1ef53b624dec01e849e58a05f1e7591acdb1ab
+			 |-- 73e0c5e632620a62c7d975998af7c6ba822448
+		 57
+			 |-- bc068d58bf6b8d93aa1ee9a76555ffaefd48a5
+			 |-- dde0973461dec39f36cf45341206fd99f055f3
+		 91
+			 |-- 86de2930e16c8aceb2121f947b69341ae3d289
+		 d8
+			 |-- 6b6b0c8861d6f0d7d60be6256fa7342a3affea
+		 bf
+			 |-- 02d09e6a418a061d4f2904e5b0facd0098dfdc
+		 e2
+			 |-- dc3f85b345a3fb4d15fada11c87ad197f2ceff
+			 |-- 3bf7a376cb53f2b69752bf3170d594ccc87f8e
+		 b8
+			 |-- 6cfda91c73620f7797252ce120103761fc95a2
+			 |-- d9348dae40e859b3a77168ff2da3229c1c5eef
+			 |-- 5e17c3c325f2f49cc1fbd085e53b3c7292dddd
+		 05
+			 |-- 1c80cbf11031977fbd04dfcbac2bbaf0288716
+			 |-- 63dcf852e29593b1f77a7c48f06854f43b0d28
+		 03
+			 |-- 408a9c22dd4eba52b0a57ec438420787c8d915
+		 99
+			 |-- aa59d59d3ef03bc32afae8bea495dee1909d1a
+			 |-- 3d0c195b6f58387a2998e6a1e1154c1c696993
+		 f1
+			 |-- 32177daa5f345772882cd983ffd8b2b92dac6d
+			 |-- e1bb80d9c992293d0d26d3f644ead6ab060c3d
+		 5f
+			 |-- f8192c5f78bb4853ef1fcfd9ed6ec82095f22e
+			 |-- 2e5d4e6b5ed36d3f8735d67fd21bb4e546d076
+		 3c
+			 |-- e8ea72e4ae512df6031febc3e045b9ccc2a63e
+			 |-- 7e25d863bf3e0887cd63003524974b1491f5d0
+		 d5
+			 |-- d1546502c20da35eed14f4644b2781cd1ba4f3
+		 07
+			 |-- 57bdd1e98713b8ddb7d552ddfcf87e51f34ce4
+			 |-- 3efad415a86d3235df6e80fa67bb2edb308622
+		 b4
+			 |-- 1a085b878159c5e1eb2197ba323527363fb2fe
+			 |-- f3463715303f2c191f9bd9a32316a0f3f05265
+		 6b
+			 |-- 74a78b345e91d9e2ad6657cdaaa9cc9aa7e128
+		 c7
+			 |-- ce9a59b0e0c9a85005a90133f13904395659c7
+		 1a
+			 |-- 941e2f94efb0dfbfb62d79ed5dce604bacb429
+			 |-- 08f0b86cc18b3cad17c2895239ee11aba0aefc
+		 2b
+			 |-- 678763947bfd6188ca83a11a59a8a8647b53cc
+		 bb
+			 |-- 4c4a6a7fcc441dd6716b26314a22e707bb8c0e
+			 |-- 03e8eebf2126b7974f2db25a1729b29ae708e4
+		 39
+			 |-- 4e656774e5b0eff1e73c5118c987fbc2db17bb
+			 |-- 1bec27d69fc3ec8ec1d10b01e0465bf2f69356
+			 |-- 91ef71ba70408febd55a01af332de590e4c6db
+		 e5
+			 |-- d9c7d286e087c6ecb7c75c766342613d0d2e79
+		 0d
+			 |-- 29b467f44f1821f97c42cf8aa2f110e5abd563
+		 46
+			 |-- 5dd9b87f5d1c1fcf3b9b5dfbde6436ea86fb3d
+		 08
+			 |-- 01c231de7a149b45b44f34d061d06704bbf377
+			 |-- ca8e532de334ad1edd2136ba9e5b0f01543955
+			 |-- 0a697bf72eef8032907ae5c1d4efbf45417763
+			 |-- 752775ff6df34d853c6e4b05109584c964a97a
+		 9b
+			 |-- 56a877ef8d5ee93596f9698ca9adbe2d608c2b
+		 82
+			 |-- dad0800ce2f1c75f9d0dab7fa9306a45807d0d
+		 f7
+			 |-- ab857e638f5c95a2367a8a51a336a2e09e79d5
+		 e8
+			 |-- 8773ac95d65d9af5cbe55cbc1dcd47844c3872
+		 dd
+			 |-- ad07b68f9340ebddcb123549988a6ed3489432
+			 |-- 33d510da84f1da23b4b6b5157cbaafc0b819f3
+			 |-- e2382f8b38ad05a14e40b2bd3f79cd76c30e31
+		 25
+			 |-- ea0f88efbdc3cc243afcd7c5591cf58f38b6aa
+		 f6
+			 |-- 4e5681e515a9095c6c03d1adbb3c805c7f8e40
+		 8b
+			 |-- 8ccfdd161048117a9991be149374c346db6c0f
+			 |-- 00fa7e374c54b41e87439dbe71f8f06fcb97c7
+			 |-- d1ee6ac66bd67e46fc9629cf71ce4f3d50c08a
+		 51
+			 |-- eed0e1214aa0bce2d1adffabb0b599d0dfa0fa
+		 89
+			 |-- 6971f8e60c693333031c5f3f363c262a837aef
+			 |-- 58d30a223c66586e5cd1bd5b456dac74145d09
+			 |-- 4f2ba62a0acdef4b1eace4f7cc92a922b44d09
+		 d0
+			 |-- 69209a488eb08193730f0d09e2f7caa86a6262
+		 95
+			 |-- d9cec4de09ec1d2a709a97e5031357741fb873
+			 |-- 78b121f6c1b1e34c39e08d12cb642e052407f1
+		 c3
+			 |-- 6dbb5a7ebb45f2842bbefe766d4547bf29d89d
+		 49
+			 |-- 53ecc4fe95a80215fea6a6fb39bd96ad3999d8
+		 info
+		 c5
+			 |-- c5eba0dc13c68554c489e5ca7b6cc1b5440f14
+			 |-- 9d28feee3a26e98685bc98055609f92e51ef1e
+		 68
+			 |-- 574d0f56b148a72a3fea09597941513f74eade
+			 |-- c82d4602ccaa115d8b6b9216bd331dc96b5579
+		 7f
+			 |-- 6adb2441d79f8b8d1d9e1b5e300c81794f0560
+			 |-- 8d1454de80f59c904074d198d475c056f18544
+		 81
+			 |-- 290326c9beb0af3fd98f2bdd52b65974d13cd3
+			 |-- 5dd8bd9ddc29402f35698f2f1fe93b20a2ea61
+			 |-- 4a0c5ba168789deb891fbec0006157e09af4a9
+		 69
+			 |-- 20175360896fb52004bef31796a52d7006610a
+		 5e
+			 |-- af94f46fe686ffb9b3dfe2020345d7933d53ef
+		 8e
+			 |-- cdf714b14aa9418e66f9888da046767ec4b569
+			 |-- 4526620f555725c3ce1664202bc044ca6bc772
+			 |-- 933d2162d26f03750d37712914f3ba3bc94aa0
+		 75
+			 |-- 198294d5b474f7db040ee4b424e295549b6bef
+		 4c
+			 |-- 2abc7d17950df144df63a355aa742c4c4fa71c
+			 |-- b37faf2511f8ee48d7efb83ff38fca92cae892
+		 0a
+			 |-- 1079512698a3df64a7d0f1378ad8801080d50c
+		 40
+			 |-- e66f302b001fd62503cd6a8338da08dd77230d
+		 ae
+			 |-- 8b425c7c62df289ee2fd962faadd3756ce1d80
+		 1f
+			 |-- 105bc832a085fa16fd380b8f6cd392ca35696b
+		 19
+			 |-- e5e39e8ba97bed3b527dd9e5db3988bf116ff4
+		 83
+			 |-- 3e368c2a49dc68838979d5232b65e8a4d005b8
+			 |-- 01bb232a1f6f44f266fe339a39c204b2380a16
+			 |-- aff0e09645afc97c06e5fcd2c4b596c56f05db
+		 53
+			 |-- 8fdf44b08da1ada182af76ee6d04ea8e8086ce
+			 |-- 5ea02f224458d6bd788fc8b61c56f81e35c2eb
+		 13
+			 |-- 8093d3ace98a4ca434dda168f6bc0c36e6c774
+			 |-- 3bb38fc4e4bf6b551f1f04db7e48f04cac2877
+			 |-- 171f42853e27083c89bc7d2a648a2ba3287c20
+		 6e
+			 |-- b40ee13bd4f253119151de9b26a1a371e94f68
+		 6a
+			 |-- 744c6280145efb3b305c775db9931dcc8f3e25
+		 f2
+			 |-- 2fb5f30ea015002565ff29bb37c2614b30fceb
+		 b9
+			 |-- c0adac38295b7b26f5e7919c77435b0445aa67
+		 ed
+			 |-- aa2ae8b9e1e24cb09cb133154cf96b0cccd5c8
+		 cd
+			 |-- 7fd23818a3d20f32bf00024bd3bca90d6d1108
+		 1d
+			 |-- 821eeabc7ed01181942645ea6b5247cee8e34c
+			 |-- 6adfa7e992be3404712ea0bc5633aef7b3aeb6
+			 |-- d4a119122a81d1f3397142acc62b31102545f1
+		 72
+			 |-- ab001b16f8946911f1a3b326f1fe389bef54e8
+		 f3
+			 |-- 13132211fd0964d2b110f37dfff6ae87c2604e
+		 b1
+			 |-- 6df3f9b9104c270c991dc2b3dfcf569faa29c4
+			 |-- f0de51b8a450837291cf7a9f4d6ff77168e4af
+			 |-- b035f0952cbfd4561eb77ee0c9b1cdabfa175b
+		 d7
+			 |-- e88bda92f7ffa0d70079fa4085f531c57877cc
+		 f5
+			 |-- 05a699b11dd8e70599e6a3a3fa9ed766bddd0b
+			 |-- 88a9b2af73952e6e02e293bb20a79afbe90c2c
+		 7c
+			 |-- 9ea3546eee8bf3f0b940f413098cce0697851a
+			 |-- 9017acbf822a4c782eb983c4d4f8407a66d595
+		 94
+			 |-- b75c79145d25210d72c3189ce5cbb6ec6b4889
+		 bd
+			 |-- 0b9cc81a732a8776425df52ae1671c9977020e
+			 |-- 7f278c8e907812fedd942546019356bbdb1552
+		 93
+			 |-- 8a95afc7fa368bda74878599644f3cbcb73aec
+		 14
+			 |-- b4c5dbd6b9526e6e89603eb04b2a35d4bb50c2
+		 02
+			 |-- c70fe5da1326c3d8fda121fdab1ea1427a4da5
+		 63
+			 |-- 900c7b80ca45af2b49a1edb817f0aa6467b86a
+			 |-- bc881ea65d9d0a652de7474ec2c558de18a47d
+			 |-- 9932437a220b0f469fcbc202ee499e697acde4
+		 7d
+			 |-- 66dc5b3132c0a635d50f14693bd815da1bd180
+		 10
+			 |-- d6337e5c3b7a821f85661c1a7cac0c7c8962c3
+		 2c
+			 |-- 0205259c4d2d0a6ba1f6134ded50a4fbd1e3a7
+			 |-- a0136a7000a9c00ec3a4c129ebf4386b998606
+		 17
+			 |-- 47cef705e150c86c7621d4ebfc36455646c52b
+			 |-- 3cbb63ee6ec600cabf56cf71fbaaeb6558554d
+		 d1
+			 |-- 7e5ac331a678a66a5e7cdc31eca1837d0d1601
+		 da
+			 |-- a3fa332d861a03b6a34a1e1a8a42ddad34c8e9
+			 |-- 0e31f0db30339c15e953d1f120661b5beaadbb
+		 2e
+			 |-- 0153f46c68c00bda8f0e0a1afc276d777bb4dc
+			 |-- 660c8d58f7b8dec6978493c585b592b71675e7
+			 |-- 6747c8e05a7572e9272ebb19329b67872d9b33
+		 fc
+			 |-- f409ed5f78510c31c641d6224157f0ec3495f4
+		 0e
+			 |-- 853609a12e039dbe0c2844f1c0db716e41bee2
+			 |-- 33d2bdbe94b6fbe0793486d46137825607447e
+		 32
+			 |-- a0385eca0c4657233faa8766557016b85a7529
+			 |-- 331421ce9fffc7957e7157ea5a8cfb69485554
+			 |-- fa50a504627e109f64b51dc249f4d2770f2801
+			 |-- 85333def613fd4a34fad846c3b87d5faaf5222
+		 b5
+			 |-- 6182413bbfe80fd4830031b174fd9dea42c47d
+			 |-- 56f270be57a7b8c28c1e1268a9b61629250c83
+			 |-- f63cc7f6b88dd32dcec2f6b5fa1426d961ab09
+		 38
+			 |-- c2a00ff94abfa8bbd9608aaac5b804580b3b35
+			 |-- d00d760434d6fb9cb057e40b6107bcbff82a33
+			 |-- 71328d9d923087d54046df7dcf1292a2e23566
+		 e6
+			 |-- 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+		 7e
+			 |-- ff9b28f2c4f1a7d805587dec06cce51903cf3a
+		 a7
+			 |-- 244ab39cfef316f5d21846f01146ae457af5c1
+		 0c
+			 |-- f69528d1f52201a081ffe809f8ca3e17c503ea
+			 |-- 3b2ac980fdd1108f68bb78317561076750ee70
+			 |-- 659a2589f3a83dffcf224383d15bb9462cb28e
+			 |-- e293ee7dc6be0a9a31d0f996f968be1ee9bdfd
+			 |-- 06b48a494d5a5b5204dea36220b39544535a4d
+		 62
+			 |-- 1aabd21b9977d7377112a2441ab55a2a4f824d
+			 |-- a5c8be69d175c2f892cb789af532a734b15087
+		 92
+			 |-- 7f4fd91265583682636e981099e8a54351317e
+			 |-- cbed3b8ef8503ed0939bb6a110f8d07352490e
+		 33
+			 |-- c20aced19ea04d1f65467ea2b3d8c1de660694
+		 fd
+			 |-- c88c55e4a847a160bf9549d8d44d5ea0b6c570
+			 |-- ef8578b2938d8e757839f984c2c075906bc573
+		 e0
+			 |-- 1f0177332ed7bac624ece453eaccf419a97d3d
+			 |-- 5e4513fc844ccf9523f9d92f19d0e8822cf19f
+		 4a
+			 |-- 4409379a639e2bf7814da16d1cde484a63b82d
+		 48
+			 |-- cd3b99af3ccf96efb93c93393064ec7f4f7bee
+		 60
+			 |-- 61ae1e1f4582f72c3b74c110a13d9dc624c02b
+			 |-- ba4f0f2d1d430be1e285a2a796f68748f11ec5
+		 a1
+			 |-- e1b80272005ee42dc74fc6696a8f867510dd20
+			 |-- 65fdf39e5470482909a04d6cb2979afc306577
+			 |-- d0ea3414a432c8b0c8c41495ddada0123adcef
+		 ab
+			 |-- 87ca07ea66f400ac247e483f1159066419cd94
+		 a9
+			 |-- cdf7c1608efe161a3cdfe58919a3d85cdda240
+		 df
+			 |-- 4c3414360851a5e1fca1dab0543a5712a34522
+			 |-- b7e0c3ad982b584389f279aa74ad5419156d1f
+		 ce
+			 |-- d36af25b57955721d5a0337cbc6dec8a5b50e0
+			 |-- 8555f85463bc95e7ebabac4659d8e4cee376ee
+		 0f
+			 |-- a84886f8f40962fe97bf239c7950f9cae213d6
+			 |-- 876230ffccb71e3d8e8d3271bf245c302cf1be
+			 |-- 9c561924755fa3795d3194a9273e1e328a24d2
+			 |-- 27b1afc071e804bd98a04da3dc251279c478b0
+		 f0
+			 |-- dcb9d8d369542a25d65ec4884a2fde6c3804d3
+			 |-- 9bd4df533b81238786bd7eb7e3e963ce6b2dac
+			 |-- 79de51d5df390016e945ba1889ac6e4786ac9f
+		 fb
+			 |-- 140275c155a9c7c5a3b3e0e77a9e839594a938
+		 a8
+			 |-- f976367fce5e66343caa5d800c16e527d9d2f6
+		 88
+			 |-- 658d5a9fd77771b675c0e7c825845c03c0312f
+			 |-- 2c8c2a386071ce3552d89de70b152ad0bb5363
+		 d4
+			 |-- e0635719ec195ebcf4c72301b439aea19b054a
+		 c2
+			 |-- 508366e59880d59abe824ce1abb99c61a88d02
+		 b2
+			 |-- 3ffa89220af3ac647398b11ec0af0341b667af
+			 |-- 7544249eb7fe50ebf5e3eb4c69df9fab33019d
+		 11
+			 |-- eaf47e3aee634f5d86eac529765889f47e7e07
+		 80
+			 |-- 6ace556a80feba96cd2e1a2fbb97d4ae6d5f5e
+		 ac
+			 |-- 2e71c5af58e2377d46d101d000f8d41e1245bd
+			 |-- 6cbbd794e37b556513e96512737acd664b476e
+			 |-- fb3eeb927f6d2d30e8fb49d00183fc53de8770
+		 ba
+			 |-- 2165dbaa039b3d5145defec93a2f670c8e12ca
+			 |-- d8ed44e9ac63d5a0eaa646e83b5096d89ad5a6
+			 |-- 3e4bf6dd8aca520f6158b570d4b6d199bd866d
+		 45
+			 |-- 266bab26695d0d1cf26dd72871acb2494faf34
+			 |-- 9e49d0b2dec1cd642d57da99e2e14aaa460126
+		 84
+			 |-- d4d1d5fb3e6cf880ef6168f61ef71e561425a4
+			 |-- 380b86157d008dc2018e34a0a1148793673284
+			 |-- 567f5c6bacbb9b5f84c8715ac35cb27777d7b1
+		 31
+			 |-- 1d6b71c6fa900cdcbf85bc8dc98c1400889f90
+			 |-- 04a6290e5757f794fc5c1b384763b28a8de737
+		 3a
+			 |-- 1473aa45799a05dc7925f98cb0954942156efb
+			 |-- 9048ba8e831446330fad4cde255d566d4f9e7c
+		 c8
+			 |-- 8842a81396111546cb302685511b789a571a90
+			 |-- da5615e5db698f0d36b8627c7972d91ab3af63
+		 8d
+			 |-- 31971a72bfce8567b6bdb6387243e2feee6b20
+			 |-- a180074730d3fb1653030675ba44ec21d0fcfe
+			 |-- 5f6b85b0292359a77a08b2b7f8d8d334f4202b
+		 52
+			 |-- dfb0687f676746cbc79f0fde87402de5382973
+		 66
+			 |-- 8503ed63d94524ae4059df42328b4318e98ff2
+		 2d
+			 |-- 58c8fe023eba54d910b127909d0fb1a686ccf9
+		 7b
+			 |-- 285ca3ed6bd5460a4ebb59f2093b151cacb3e7
+		 21
+			 |-- 9f6f05439aad43b17c573212659e488281d544
+			 |-- 27fb1707d55a2c5300fefc4ada32bf87cad1cd
+			 |-- 2700aa20e80786168f23c9238fc69c28f32cb1
+		 de
+			 |-- ef206d015dfd0085561f965430a155f0b03b69
+		 8f
+			 |-- 771189078df3816531a40adf2c7dc0aa0e3170
+			 |-- c948f03bf1e2513cb6f87b6c5315a3475fb048
+		 6c
+			 |-- dfd08c8fc00b47f7d609a8346a051fbd7052f8
+		 56
+			 |-- 3b8e0e74832d94cd09df69b2d11b4bd83c7838
+		 3e
+			 |-- af8745b2e684f21b2ea534ca29f6d3910661f5
+		 db
+			 |-- db52acb362d9deb48a605e5cf01c16613edb6d
+			 |-- 030c3a8015a4eafce73384a1d248204441dfaa
+		 cc
+			 |-- eeacf840cf67e3fb3d3cccccf1e193c436b6b0
+		 78
+			 |-- d6cf956dd729c7f19f767c3a22ff580b91b84e
+		 59
+			 |-- 0a44f1f167dbc1cdc8fad2123b26705a43731d
+			 |-- 380a0a8159e8e1df4f3e419be6514500e62afa
+		 e4
+			 |-- 9cee980a45307250637af34eb31da573173781
+			 |-- 97a5a64163c80c6a9f1eb94ab62452e26dc108
+		 8a
+			 |-- a495e2c0fe5e97e9ee495f9613ddcbad54269d
+			 |-- ed7c0daa3953a94b3bd7aaec6d97f8cfbea25f
+		 d2
+			 |-- d18586be98860205ea1daff4a55fe9278475f6
+		 58
+			 |-- db2ff05b2e1ed18dc0aeb587fda9613e48dc65
+		 c0
+			 |-- 0d217ba83d23013c681b9cd34c9bca208319e6
+			 |-- e928c5f2198553d78168b996af99ec587a95d2
+		 87
+			 |-- 7f941d3548e872f847d2f9192f1be7e80cc0e8
+		 54
+			 |-- fdeb7c7ea1a4d69d7b380aba0f781153fb2ec7
+			 |-- 63a736686c1077ab3ad743aa1e3c57c8de6af6
+			 |-- 038a5f178458c9cda1368d4ed0529c853081a1
+		 86
+			 |-- 2a4105a4f6246e25cb83f57397b62478b4d135
+		 a4
+			 |-- 388969335a676a60b96be020a9a317239babf9
+		 ee
+			 |-- 5ccd5258fda7ea98236095714391675817f8e1
+		 50
+			 |-- bb37b9e81634c7d9777f43fd7522fcc56fdae2
+		 16
+			 |-- 5267b2825b7d1515fee0a1987010924609a302
+			 |-- 3d36c857f486e1b7946c5d5edf85443b39b4c7
+			 |-- fb6b9cbc045a21f232220d6448552d319ba4ab
+		 26
+			 |-- 838a060a975d7a582a269a287fa94193fd7c81
+			 |-- 7a2d3d9a0af5cd1a488751382764a4602a45b1
+			 |-- c28a2158423f5ef22be005e115e50cf74c859c
+		 96
+			 |-- 91ca136b5e1e0dfd34a6d8647900f326c267f5
+		 c4
+			 |-- 51521a461b67ae26a830dbe17b45fbd141a463
+	 info
+		 |-- exclude
+	 branches
+	 hooks
+		 |-- pre-rebase.sample
+		 |-- pre-push.sample
+		 |-- pre-applypatch.sample
+		 |-- update.sample
+		 |-- pre-commit.sample
+		 |-- applypatch-msg.sample
+		 |-- commit-msg.sample
+		 |-- post-update.sample
+		 |-- prepare-commit-msg.sample
+	 refs
+		 heads
+			 |-- master
+		 remotes
+			 origin
+				 |-- HEAD
+				 |-- master
+		 tags
+	 |-- COMMIT_EDITMSG
+	 |-- HEAD
+	 |-- FETCH_HEAD
+	 |-- index
+	 |-- ORIG_HEAD
+	 |-- config
+	 |-- description
+	 |-- packed-refs
+ huggingface_pretrained
+	 bert-base-uncased
+		 |-- pytorch_model.bin
+		 |-- vocab.txt
+		 |-- config.json
+	 albert-xxlarge-v2
+		 elg
+			 |-- pytorch_model.bin
+			 |-- config.json
+		 |-- pytorch_model.bin
+		 |-- config.json
+		 |-- spiece.model
+ input
+	 natural_questions
+		 __pycache__
+			 |-- test_utils.cpython-37.pyc
+		 |-- simplified-nq-valid.jsonl
+		 |-- v1.0-simplified_nq-dev-all.jsonl.gz
+		 |-- test_utils.py
+		 |-- simplyfy.py
+		 |-- run.sh
+		 |-- v1.0-simplified_nq-dev-all.jsonl
+	 |-- simplified-nq-test.jsonl
+	 |-- readme.txt
+	 |-- simplified-nq-train.jsonl
+	 |-- sample_submission.csv
+ |-- tree.py
+ |-- README.md
+ |-- .gitignore
+ |-- tree.txt
+ |-- tree.ipynb
